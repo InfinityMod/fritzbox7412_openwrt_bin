@@ -1,0 +1,520 @@
+Die Update-Datei "FRITZ.Box_7412.137.xx.xx.image" auf ftp.avm.de enthält das aktuelle FRITZ!OS (Firmware) für die FRITZ!Box 7412.
+
+**Achtung:** Diese Update-Datei ist nur für FRITZ!Box 7412 geeignet!
+Beachten Sie die Hinweise zur Durchführung des Updates am Ende dieser Datei.
+
+
+```
+Produkt:    	FRITZ!Box 7412
+ 
+Version:        FRITZ!OS 6.85
+
+Sprache:        deutsch
+
+Release-Datum:  11.10.2018
+```
+
+- Stabilitätsverbesserung für den Betrieb speziellen Anschlüssen
+- Verbesserte Sicherheit
+- weitere Stabilitäts- und Detailsverbesserungen
+
+
+Im Folgenden finden Sie die komplette Liste der neuen Funktionen des aktuellen FRITZ!OS, deren Beschreibung im Detail und eine Liste weiterer Verbesserungen in dieser Version.
+
+---
+
+# Neue und verbesserte Funktionen in FRITZ!OS 6.85
+
+## Internet:
+- Behoben - Bei Portfreigaben ändert sich sporadisch der externe Port
+- Behoben - kein Hinzufügen von IPv4-Portfreigaben für Geräte mit IPv4 und IPv6 an Internetanschlüssen ohne IPv6
+- Behoben - kein automatisches "Wake on LAN" bei Zugriff aus dem Internet
+- Behoben - mögliche fehlerhafte Sperre der Internetnutzung durch die Kindersicherung
+
+## WLAN:
+- Behoben - Schwäche in der WPA2-Schlüsselaushandlung bei Nutzung eines WLAN-Uplinks zu einem anderen Router 
+
+## Sicherheit:
+- Verbesserung - zusätzliche Bestätigung einer Einstellungsänderung erweitert um DNS-Einstellungen und Setzen auf Werkseinstellung
+- Verbesserung - Hinweise unter https://avm.de/sicherheit/ im Bereich "Updates erhöhen Sicherheit"
+
+## System:
+- Verbesserung - Stabilität
+
+---
+
+# Neue und verbesserte Funktionen in FRITZ!OS 6.80
+
+## Internet 
+- **NEU:** Anzeige der Internetnutzung durch Gäste im Online-Monitor
+- **NEU:** Gesicherte Datenrate für Heimnetzgeräte trotz intensiv genutztem Gastnetz
+- **NEU:** Option für selbständige Portfreigaben (UPnP/PCP) pro Gerät aktivierbar
+
+## Telefonie 
+- **NEU:** Option zur Begrenzung der Anzahl der ausgehenden Anrufe ins Ausland, automatisch aktiv
+- **NEU:** Rufumleitung auf alle Kontakte in einem Telefonbuch anwendbar
+
+## DECT 
+- **NEU:** Unterstützung für den Betrieb von CAT-iq 2.0 fähigen Handgeräten hinzugefügt
+
+## Heimnetz 
+- **NEU:** Änderung der IP-Adresse (DHCP) direkt in den Gerätedetails
+
+## WLAN
+- **NEU:** FRITZ!Hotspot: der WLAN-Gastzugang mit Zusatzfunktionen für Café, Laden oder Praxis: Vorschaltseite mit eigenem Logo, Text und Link auf eigene Homepage 
+Details unter https://avm.de/ratgeber/praktische-wlan-features/der-fritzhotspot-fuer-gaeste/ 
+
+## MyFRITZ! 
+- **NEU:** Benutzeroberfläche myfritz.box um Komfortfunktionen erweitert und optimal auf Smartphone und Tablet abgestimmt (Responsive Design)
+
+## Sicherheit 
+- **NEU:** Das Kennwort für die Anmeldung eines IP-Telefons an der FRITZ!Box muss mindestens achtstellig sein. IP-Telefone mit kürzerem Kennwort werden beim Update deaktiviert.
+- **NEU:** Bestimmte Einstellungen und Funktionen erfordern eine zusätzliche Bestätigung des Anwenders am Ort der FRITZ!Box
+
+
+---
+
+
+## Hoheitsrechte im WLAN
+Mit dem Update auf FRITZ!OS 6.80 können sich Anwender darauf verlassen, dass sie selbst auch dann ungehindert surfen, streamen und chatten können, wenn das Gastnetz stark genutzt wird. Denn sie entscheiden, welche Übertragungsraten ihnen und ihren Gästen zustehen. Sind die FRITZ!Box-Besitzer selbst nicht online, so freuen sich die Gäste über höhere Datenraten. Praktisch ist auch der neue Online-Monitor, der neben den Downstream-Raten für Internet und IPTV nun auch die Datenraten des Gastzugangs anzeigt. 
+
+## FRITZ!Fon: weitere Startbildschirme und Nachtmodus
+FRITZ!Fon, das DECT-Telefon für die FRITZ!Box, hat neue Startbildschirme zur Auswahl erhalten. Neu ist auch die Anzeige einer analogen Uhr in weißer und schwarzer Ausführung. Der neue Nachtmodus dimmt das Display, wenn eine festgelegte Umgebungshelligkeit unterschritten wird. Die Möglichkeiten der Rufumleitung mit der FRITZ!Box lassen sich jetzt auch auf alle Kontakte eines gewünschten Telefonbuchs anwenden. Auch lässt sich mit FRITZ!OS 6.80 optional die Anzahl ausgehender Telefonate begrenzen.
+
+## Noch schöner und einfacher: MyFRITZ! für Browser und App
+Nach der Benutzeroberfläche fritz.box, dem Fenster zur FRITZ!Box, erscheinen mit FRITZ!OS 6.80 nun auch die Benutzeroberfläche des MyFRITZ!-Dienstes (myfritz.net) im Responsive Design und passt sich jeder Display-Größe an. Mit der MyFRITZ!App 2 (für Android) haben Anwender bequem Zugriff auf gespeicherte Daten, die Anrufliste oder Sprachnachrichten ? zuhause wie unterwegs. Bei verpassten Anrufen oder neuen Sprachnachrichten werden die Anwender in Echtzeit über die App benachrichtigt. Mit nur einer Wischbewegung stellen sie unterwegs einen sicheren Zugang in ihr Heimnetz her und greifen auf ihre FRITZ!Box oder daran angebundene Geräte zu.
+
+## Auf Nummer sicher: starke Passwörter und Einstellungen mit Bestätigung
+Das Einrichten neuer IP-Telefone und Rufumleitungen sowie das Speichern von Sicherungsdateien wird noch sicherer durch die neue Funktion der zusätzlichen Bestätigung, die nur am Ort der FRITZ!Box geschehen kann (Zwei-Faktor-Authentifizierung). Anmeldeversuche mit falschen Benutzerdaten werden als Ereignis protokolliert. FRITZ!OS 6.80 sorgt außerdem dafür, dass zum Einrichten eines IP-Telefons oder einer IP-Türsprechanlage über die FRITZ!Box ein mindestens 8-stelliges Passwort vergeben werden muss. Zahlreiche weitere Aktualisierungen bringen die FRITZ!Box mit FRITZ!OS 6.80 auf den aktuellen Stand der Sicherheitstechnik. Für optimalen Schutz und beste Netzabstimmung empfiehlt AVM wie bei jedem größeren Update die jeweils neueste Version von FRITZ!OS zu verwenden.
+
+## Vorbereitetet für Änderungen im DSL-Netz
+Ausgewählte FRITZ!Box-Modelle mit FRITZ!OS 6.80 sind kompatibel zu Netzen, in denen künftig VDSL Supervectoring 35B angeboten wird. VDSL Supervectoring 35B erfordert für das Erreichen höherer Geschwindigkeiten neue Hardware; durch die integrierte Kompatibilität bleiben FRITZ!Boxen aber auch in Zukunft an Supervectoring-Anschlüssen besser nutzbar. 
+
+## FRITZ!-Komfort mit DECT-Telefonen anderer Hersteller
+Mit FRITZ!OS 6.80 stehen auch für DECT-Telefone, die den Standard CAT-iq 2.0 beherrschen, eine Reihe der Komfortmerkmale der FRITZ!-Telefonie zur Verfügung: Schnurlostelefone anderer Hersteller können ein oder mehrere Telefonbücher der FRITZ!Box nutzen und die Anwender erhalten mit der Anrufliste einen schnellen Überblick. 
+
+## Online Spiele, Spielekonsolen oder IP-Geräte für Zugriffe aus dem Internet freigeben
+An der FRITZ!Box angeschlossene Geräte sind sicher vor unerwünschten Zugriffen aus dem Internet. Bestimmte Anwendungen wie Online-Spiele oder Geräte wie IP-Kameras und Spielekonsolen müssen jedoch manchmal auch für andere über das Internet erreichbar sein. Durch gezielte Portfreigaben ermöglichen FRITZ!Box-Anwender solche Verbindungen. Neu ist auch, dass nun auch einzelnen Geräte erlaubt werden kann, Portfreigaben selbst zu steuern. Alle Portfreigaben (IPv4, IPv6, MyFRITZ! oder selbständige) können mit FRITZ!OS 6.80 nun auf einen Blick betrachtet und auch eingestellt werden. Im Menü unter ?Internet? ?Freigaben? erhalten Anwender eine Übersicht aller Portfreigaben mit den jeweils zugeordneten Heimnetzgeräten. Einstellungen für die Kindersicherung lassen sich mit dem neuen FRITZ!OS auch auf reine IPv6-Geräte anwenden.
+
+
+# Weitere Verbesserungen im FRITZ!OS 6.83
+
+## Telefonie 
+- **Verbesserung:** Notwendige Anpassungen für Veränderungen des Telefoniedienstes beim Anbieter Telekom
+- **Behoben:** In den Anschlusseinstellungen für eine eigene Rufnummern fehlte in seltenen Fällen die Eingabemöglichkeit von Zugangsdaten für die separate Verbindung der Internettelefonie
+- **Änderung:** Das Einrichten eines IP-Telefons erfordert eine Mindestlänge von 8 Zeichen bei der Vergabe des Benutzernamens
+- **Änderung:** Die Option für IP-Telefone, die Anmeldung aus dem Internet zu erlauben, ist nach dem Update deaktiviert *
+
+## System 
+- **Verbesserung:** Ereignismeldung weist auf ein IP-TV störendes Gerät im Heimnetz hin (Aussetzer bei T-Entertain mit Media Receiver 400)
+- **Verbesserung:** Text im Dialog der zusätzlichen Bestätigung überarbeitet
+
+Wir empfehlen jedes Update auch aus Sicherheitsgründen. Weitere Verbesserungen zur Erhöhung der Sicherheit mit dieser Version von FRITZ!OS erfahren Sie unter 
+http://www.avm.de/sicherheit im Bereich "Updates erhöhen Sicherheit".
+*: Wir empfehlen IP-Telefone von anderen Standorten verschlüsselt mit Hilfe von VPN anzubinden.
+
+# Weitere Verbesserungen im FRITZ!OS 6.80
+
+## DSL 
+- **Verbesserung:** Optimierung bei VDSL-Vectoring
+- **Verbesserung:** Interoperabiltität mit verschieden Anschlüssen für VDSL und ADSL verbessert
+- **Verbesserung:** Kompatibilitätsmodus für VDSL-Anschlüsse mit Supervectoring (35B) hinzugefügt
+
+## Internet 
+- **Verbesserung:** Anzeige der Online-Zeit in der Übersicht der Kindersicherung
+- **Verbesserung:** Beschriftung der Zeitachsen im Online-Monitor 
+- **Verbesserung:** Filter für Internetseiten berücksichtigt gesperrte Domains jetzt auch bei https-Aufrufen 
+- **Verbesserung:** Unterstützung von reinen IPv6-Geräten in der Kindersicherung 
+- **Verbesserung:** Portfreigaben zusammengefasst mit MyFRITZ!-Freigaben und IPv6-Freigaben
+- **Verbesserung:** Komplette Firewall-Freigaben für nachgelagerte Router unter IPv6 möglich 
+- **Verbesserung:** Statische Routen für IPv6 definierbar
+- **Verbesserung:** schneller Surfen durch optimierte Behandlung von DNS-Anfragen 
+- **Verbesserung:** Stabilität von IPTV bei gleichzeitiger Nutzung über LAN und WLAN
+- **Behoben:** Verschobene Zeitskala in der grafischen Übersicht der erlaubten Onlinezeit auf fritz.box/surf.lua
+
+## Telefonie 
+- **Verbesserung:** Position des Gruppenfilters im Einrichtungsassistenten für Google-Telefonbücher optimiert
+- **Verbesserung:** höhere Sprachqualität bei Internettelefonie durch verzögerungsarme Sprachübertragung
+- **Verbesserung:** schnellerer Verbindungsaufbau bei Internettelefonie bei gleichzeitiger Datenübertragung
+- **Verbesserung:** höhere Sprachqualität bei Internettelefonie auch bei gleichzeitiger Datenübertragung beim Anbieter Deutsche Telekom
+- **Verbesserung:** Einstellen der Zeitschaltung des Anrufbeantworters an Smartphone und Tablet optimiert
+- **Verbesserung:** Anpassungen für Internettelefonie-Anbieter Personal-VoIP
+- **Verbesserung:** Internettelefonie-Anbieter "Anderer Anbieter", "SIP-Anlagenanschluss" und "SIP-Trunking" bieten Einstellung der Paketgröße
+- **Verbesserung:** Interoperabilität der Nachrichtenübertragung (MWI) zu angeschlossenen IP-Telefonen
+- **Verbesserung:** Interoperabilität der Übertragung von Faxnachrichten über das Internet (Protokoll T.38)
+- **Behoben:** Einbindung eines neuen Google-Telefonbuchs nicht möglich
+- **Behoben:** in seltenen Fällen mögliche Gesprächsabbrüche beim Halten/Makeln
+- **Änderung:** Anpassung an veränderte Netzbedingungen, in deren Folge Rufe von Anschlüssen der Telekom, easybell und Alice in das Netz von UnityMedia/Kabel-BW scheitern konnten
+
+## DECT 
+- **Verbesserung:** Einträge im Telefonbuch sind jetzt auch nach Vor- und Nachnamen sortierbar
+- **Verbesserung:** Podcasts können am FRITZ!Fon jetzt unterbrochen (durch den Nutzer oder durch eingehende Anrufe) und anschließend punktgenau fortgesetzt werden
+- **Behoben:** Telefonbucheinträge mit mehreren Rufnummern wurden gelegentlich nicht vollständig übernommen
+
+## Heimnetz 
+- **Verbesserung:** Anzeige von Gerätedetails vervollständigt
+- **Behoben:** "Entfernen" unbenutzter Geräte in Heimnetzliste entfernt auch VPN-Verbindungen
+
+## WLAN 
+- **Verbesserung:** Zeitpunkt der letzten Autokanal-Aktualisierung ersichtlich
+- **Verbesserung:** Löschen aller inaktiven WLAN-Geräte ohne individuelle Einstellungen aus der Liste bekannter WLAN-Geräte
+- **Verbesserung:** Einstellen der Zeitschaltung an Smartphone und Tablet optimiert
+- **Verbesserung:** Stabilität verbessert
+
+## MyFRITZ! 
+- **Verbesserung:** Diagnose von Funktion und Sicherheit bezieht MyFRITZ! ein
+- **Verbesserung:** Registrierung des MyFRITZ!-Kontos optimiert
+
+## Sicherheit 
+- **Verbesserung:** Anmeldeversuche mit falschen Benutzerdaten werden im Ereignisprotokoll festgehalten
+- **Änderung:** Die Anmeldung an der FRITZ!Box-Oberfläche ist 20 min gültig
+- **Änderung:** Erhöhen der Sicherheit des FRITZ!Box-eigenen Zertifikats durch Signatur mit SHA-256 
+
+## System 
+- **Verbesserung:** Einrichtung von Zeitschaltungen nach grafischem Zeitplan optimiert für Smartphone und Tablet 
+- **Verbesserung:** Die FRITZ!OS-Updateseite zeigt zusätzlich den Zeitpunkt der letzten Versionsprüfung bzw. der Installation des FRITZ!OS an
+- **Verbesserung:** Ereignisprotokoll an verschiedene Displaygrößen angepasst
+- **Verbesserung:** Benutzerführung bei der Wiederherstellung von gesichterten Einstellungen
+- **Verbesserung:** Übersicht Push Service 
+- **Verbesserung:** Mail-Betreffs des Push Service und Absender-Information überarbeitet
+- **Verbesserung:** Textüberarbeitungen in der FRITZ!Box-Info-Mail vom Push Service
+- **Verbesserung:** Push Service fasst zeitlich nah beieinander liegende Mails zusammen
+- **Verbesserung:** Erweiterung der Push Mails mit Änderungsnotizen für ausgewählte Einstellungen
+- **Verbesserung:** Push Service-Mail für die Nutzung des Gastzugangs auch bei deaktivierter Anzeige der WLAN-An/Abmeldeereignisse
+- **Verbesserung:** Information bei zu vollem Speicher bei Push Service-Mails zu Sprachnachrichten und der Funktionsdiagnose
+- **Verbesserung:** Wichtige Mitteilungen für den sicheren und zuverlässigen Betrieb jetzt auch auf FRITZ!Fon-Geräten, über MyFRITZ!App 2 und per Push Mail. (Bislang: nur rote Info-LED und Startseite fritz.box)
+- **Verbesserung:** Stabilität auch bei untypischer Lastsituation verbessert
+- **Behoben:** Wiederkehrende Push Mails (Änderungsnotizen) über Erstanmeldung von Powerline-Geräten oder Geräten ohne Uhrzeit
+- **Behoben:** "Änderungsnotizen" und "Kennwort vergessen"-Mail wurden nicht versendet, wenn der Push Service mit dem Anrufbeantworter oder der Fax-Funktion eingerichtet wurde
+- **Änderung:** Schnittstellenbeschreibungen für Entwickler erweitert (www.avm.de/Schnittstellen)
+
+
+
+---
+
+
+# Neues in FRITZ!OS 6.50
+
+## DSL
+- **NEU:** Bei aktivem VDSL Vectoring kann nun der Impulsstörschutz (G.INP) gleichzeitig mit einer unterbrechungsfreien Anpassung der Verbindungsgeschwindigkeit (SRA) genutzt werden
+
+## Internet
+- **NEU:** Kindersicherung mit Tickets zur Verlängerung per Onlinezeit bei Bedarf
+- **NEU:** Anzeige von Restlaufzeit und Einschränkungen bei der Internetnutzung mit fritz.box/surf.lua (Kindersicherung)
+- **NEU:** Anzeige eines länger andauernden Internetausfalls (INFO-LED und Startseite der Benutzeroberfläche)
+- **NEU:** Bei der Verbindungsart DS-Lite können einkommende IPv4-Freigaben über das Port Control Protocol im AFTR-Gateway des Internetanbieters eingerichtet werden. Erfordert die Unterstützung des Internetanbieters.
+- **NEU:** Eigenen lokalen DNS-Server verwenden (IPv4 und IPv6)
+- **NEU:** Portfreigaben im Heimnetz automatisiert über das Port Control Protocol (PCP) einrichten
+- **NEU:** Neuer Filter für TCP-Port 25, um ungesicherten E-Mailversand zu blockieren (unter Internet/Filter/Listen aktivierbar)
+
+## WLAN
+- **NEU:** Auslastung des aktuell genutzten WLAN-Funkkanals anzeigen (zeitlicher Verlauf)
+- **NEU:** Internetzugang über den Gastzugang optional nur nach Zustimmung zu den Nutzungsbedingungen gestatten (Captive Portal)
+- **NEU:** WLAN-Standard im 2.4 GHz Band auf "802.11n+g" gesetzt (Voreinstellung geändert)
+- **NEU:** Gescheiterte Anmeldeversuche von WLAN-Geräten werden in einer separaten Liste auf der Seite WLAN/Funknetz erfasst.
+
+## Telefonie
+- **NEU:** Zeitschaltung des Anrufbeantworters ermöglicht die Verwendung aller drei Betriebsarten: "Nachrichten aufnehmen", "Nur Ansage" sowie "aus"
+- **NEU:** Blacklist für eingehende Anrufe: komplette Telefonbücher für eingehende Rufsperren nutzbar
+- **NEU:** Für Türsprechanlagen die Funktionen Tür öffnen, FRITZ!Fon Klingelton und Live-Bild unterstützt
+- **NEU:** DTMF-Generierung zu analogen Nebenstellen unterstützt (für Türsprechstellen erforderlich)
+- **NEU:** Unterstützung für IP-Türsprechanlagen
+- **NEU:** Anbieterprofil "sipgate Anlagenanschluss" hinzugefügt
+
+## DECT
+- **NEU:** Drei neue Startbildschirme: "Neue Anrufe", "Anrufbeantworter" und "FRITZ!Box" (FRITZ!Fon C5,C4 und MT-F)
+- **NEU:** Großschrift im Menü einstellbar für FRITZ!Fon C5, C4 und MT-F (Einstellungen>Anzeige>Großschrift)
+- **NEU:** Live-Bild Verwaltung für FRITZ!Fon unter DECT/Internetdienste hinzugefügt
+- **NEU:** Unterstützung für Türsprechanlagen mit Bildanzeige an FRITZ!Fon C5, C4 und MT-F
+- **NEU:** Verbesserte Audioübertragung von Internetradio/Podcast und Mediaplayer (modellabhängig, CELT-Codec)
+- **NEU:** Unterstützung von Headset Tasten (Rufannahme/Auflegen)
+- **NEU:** Anzeige von png und gif Bildformaten an FRITZ!Fon-Handgeräten mit Farbdisplay
+- **NEU:** Gigaset Handgeräte: Übertragung von Telefonbüchern und einzelnen Einträgen von und zur FRITZ!Box unterstützt
+
+## Heimnetz
+- **NEU:** Heimnetzübersicht mit allen angeschlossenen Geräten
+- **NEU:** Zentrale Updatefunktion für alle FRITZ!-Produkte im Heimnetz
+- **NEU:** Löschen inaktiver Geräte ohne individuelle Einstellungen aus der Übersicht der Netzwerkverbindungen
+- **NEU:** Sicherer Zugang zur Benutzeroberfläche von angeschlossenen FRITZ!-Geräten über das FRITZ!Box-Kennwort
+- **NEU:** Anzeige der VPN-Benutzer in der Übersicht der Netzwerkverbindungen
+
+## System
+- **NEU:** Benutzeroberfläche im neuen Responsive Design für die optimierte Anzeige auf Smartphone und Tablet
+- **NEU:** Komplett überarbeitetes grafisches Design der Benutzeroberfläche
+- **NEU:** Push Service "Änderungsnotiz" informiert zu Veränderungen von ausgewählten Einstellungen und Ereignissen
+- **NEU:** Push Service versendet Mail mit Status nach erfolgtem Update (erst mit dem nächsten Update wirksam)
+- **NEU:** Anzeige von wichtigen Mitteilungen für den sicheren und zuverlässigen Betrieb mit Info-LED und auf der Startseite
+
+## Sicherheit
+- **NEU:** Zur Erhöhung der Sicherheit beim Zugang zur Benutzeroberfläche ist bei der Ersteinrichtung jetzt die Vergabe eines FRITZ!Box-Kennworts erforderlich
+- **NEU:** Zur Erhöhung der Sicherheit ist die Vergabe eines Kennworts für die Sicherungsdatei erforderlich
+- **NEU:** Firewall-Einstellung "stealth mode" unter Internet>Filter>Listen>Globale Filtereinstellungen
+- **NEU:** Option zum Unterbinden von Internettelefonie aus dem Heimnetz (unter "Telefonie / Eigene Rufnummmern / Anschlusseinstellungen")
+
+
+---
+
+
+## Neue Features für die FRITZ!Box - FRITZ!OS 6.50 im neuen Design, mit mehr Überblick im Heimnetz und über 120 Neuheiten 
+
+Das aktuelle Update bietet eine Benutzeroberfläche http://fritz.box im neuen Design, optimiert für Smartphone, Tablet und Notebook. Sie passt sich im Browser flexibel an die verschiedenen Displaygrößen an. Die Benutzeroberfläche hat ebenfalls einen frischen neuen Look erhalten. Die Menüpunkte und ihre Anordnung finden die Anwender gewohnt übersichtlich wieder. 
+
+Ebenfalls neu ist die umfassende Heimnetzübersicht über alle angeschlossenen Geräte. Dazu zählen alle WLAN-, LAN-, Powerline- und DECT-Geräte. Auf einen Blick sehen Anwender, ob ihre angeschlossenen FRITZ!-Produkte mit der aktuellen Version von FRITZ!OS ausgestattet sind. Sie können Updates direkt von hier aus starten.
+
+Nutzen Sie mit dem neuen FRITZ!OS zusätzlich hilfreiche Analysen Ihrer WLAN-Umgebung. Unter ?WLAN / Funkkanal? wird die Auslastung des aktuell genutzten Funkkanals im Zeitverlauf angezeigt. Je kleiner die Auslastung des Funkkanals, desto besser sind die dort möglichen Datendurchsätze.
+
+Ab sofort kann am WLAN-/LAN-Gastzugang optional der Internetzugang nur nach Zustimmung zu den Nutzungsbedingungen des FRITZ!Box-Besitzers gestattet werden. Der Gast bekommt zunächst eine Vorschaltseite (Captive Portal) zur Zustimmung angezeigt. Ohne deren Bestätigung ist kein Internetzugang möglich. 
+
+Neues bei der Kindersicherung: pro Netzwerkgerät lässt sich die Surfzeit per Ticket um 45 Minuten verlängern. Das Einlösen eines Tickets erfolgt nach Ablauf der Online-Zeit auf der im Browser angezeigten Informationsseite zur gesperrten Internetznutzung. 
+Mit jedem Netzwerkgerät kann man über http://fritz.box/surf.lua nachsehen, welche Einstellungen für die Internetnutzung dieses Geräts gelten und wie viel Onlinezeit am aktuellen Tag bereits genutzt wurde.
+
+Sollte es Störungen beim Netzzugang oder der Internettelefonie geben, weist die FRITZ!Box den Anwender über eine Info-LED darauf hin. Auf der Startseite der Benutzeroberfläche erhält er genauere Informationen zum Grund der Störung.
+
+Auch bei der Telefonie profitieren Sie von neuen Möglichkeiten: So können Sie unerwünschte Anrufe jetzt per Blacklist im Telefonbuch sperren. 
+
+Viel Neues gibt es natürlich auch bei DECT: Mit gleich drei neuen Startbildschirmen ('Anrufbeantworter', 'FRITZ!Box' und 'Neue Anrufe') lässt sich FRITZ!Fon jetzt noch besser auf die eigenen Bedürfnisse einrichten. So werden wichtige Informationen und Ereignisse besser sicht- und erreichbar. Tipp dazu: Bei FRITZ!Fon die Software aktualisieren und 2x MENU drücken.
+
+Mit jedem neuen FRITZ!OS optimiert AVM auch die Sicherheit von FRITZ!Box & Co. und empfiehlt daher jedem Nutzer, das Update durchzuführen. So können All-IP-Anschlüsse auf Wunsch jetzt besser gegen die unerwünschte Nutzung von Internettelefonie aus dem Heimnetz geschützt werden (Telefonie / Eigene Rufnummern / Anschlusseinstellungen). Um Ping-Anfragen zu unterbinden, lässt sich die Firewall im Stealth-Modus betreiben. Die TLS-Sicherheit wurde verbessert und Port 25 erhält einen neuen Filter, um ungesicherten E-Mail-Versand zu blockieren.
+
+
+---
+
+
+# Verbesserungen und Fehlerbehebung in FRITZ!OS 6.50
+
+## DSL
+- **Verbesserung:** Hinweis auf Anmeldeseite, wenn keine DSL-Verbindung besteht
+- **Behoben:** Impulsstörschutz (G.INP) wurde bei erster Verbindung nach Neustart nicht ausgehandelt
+- **Behoben:** Verbindungsproblem zu Broadcom 147.159 (VDSL)
+- **Behoben:** Verbindungsproblem zu Infineon 7.23.4 (ADSL2+)
+
+## Internet
+- **Verbesserung:** Anzahl der VPN-Verbindungen von 8 auf 12 erhöht
+- **Verbesserung:** Bei Neueinrichtung der Internetverbindung für Provider Telekom wird Dualstack (IPv4/IPv6) sowie eine bevorzugte Nutzung des Zeitservers der Telekom eingerichtet
+- **Verbesserung:** Einrichtung am Vodafone-Anschluss vereinfacht
+- **Verbesserung:** Ersteinrichtungen für Internetanbieter Telekom berücksichtigen keine Zwangstrennung mehr wg. Wegfall der Zwangstrennung für IP-basierte Anschlüsse
+- **Verbesserung:** Unterstützung für PPPoE Passthrough aktivierbar
+- **Verbesserung:** VPN-Interoperabilität zu Fremdgegenstellen
+- **Verbesserung:** Stabilität für die Nutzung von Entertain über WLAN
+- **Änderung:** Menüpunkt MyFRITZ! unbenannt in MyFRITZ!-Konto
+- **Behoben:** Deaktivierung nicht unterstützter Dienste bei Umschaltung der Betriebsart
+- **Behoben:** Fehler bei der Prüfung der Verbindung benutzerdefinierter DynamicDNS-Anbieter
+- **Behoben:** VPN-Einstellungen des FRITZ!Box-Benutzers enthielten in bestimmten Fällen keinen Preshared Key
+- **Behoben:** im WLAN-Netz verzögerte Benachrichtigungen für Android-Apps an IPv6-Anschlüssen
+- **Behoben:** Fix für fehlende Daten einer Gastzugangseinrichtung auf der Startseite
+
+## WLAN
+- **Verbesserung:** Anzeige der Belegung der WLAN-Kanäle durch Nachbarnetze
+- **Verbesserung:** Auf den Detailseiten von WLAN-Geräten in WLAN / Funknetz wird die maximal mögliche Datenrate zusätzlich angezeigt
+- **Verbesserung:** Kennwortbewertung bei der Eingabe des WLAN-Netzwerkschlüssels
+- **Verbesserung:** Meldungen zu WLAN unter System/Ereignisse überarbeitet
+- **Verbesserung:** WLAN-Gastzugang jetzt statt WPA/WPA2 (mixed mode) mit WPA2 verschlüsselt
+- **Behoben:** Regelung der Sendeleistung bei aktivem Gastzugang wieder ermöglicht
+- **Behoben:** WLAN-Gastzugang in der Betriebsart "Vorhandene Internetverbindung mitbenutzen (IP-Client)" wieder aktivierbar
+
+## Telefonie
+- **Verbesserung:** Anbietervorwahlen für Call-by-Call bei allen Betriebsarten
+- **Verbesserung:** Anzeige bei andauerndem Ausfall der IP-basierten Telefonie (rote INFO-LED)
+- **Verbesserung:** Bei Wahlregeln und Rufsperren werden bei Auswahl eines Bereichs (z.B. Mobilfunk) die genauen Rufnummernbereiche angezeigt
+- **Verbesserung:** Bezeichnungen für Rufsperren vergebbar
+- **Verbesserung:** Darstellung der Gesprächszeit bei Anrufen und Sprachnachrichten überarbeitet
+- **Verbesserung:** Diagnose mit verbesserten Texten und Statusanzeigen bei vorliegenden Telefonieproblemen
+- **Verbesserung:** Ermittlung des Anrufernamens für die internen Anrufbeantworter optimiert
+- **Verbesserung:** Fehlerhinweis bei nichtnummerischer Zeicheneingabe für die Fernabfrage-PIN des Anrufbeantworters
+- **Verbesserung:** Im Google-Telefonbuch können neue Kontakte einer gewählten Gruppe zugeordnet werden
+- **Verbesserung:** Neuer Bereich Interkontinental für Rufsperre/Wahlregel zu Rufnummern außerhalb Europas
+- **Verbesserung:** Sprachqualität für FRITZ!Fon M2, C4 verbessert (Equalizer überarbeitet)
+- **Verbesserung:** Telefonbuch "interne Nummern" bietet Bearbeiten und Löschen für Rufnummern an, die aus einer vorgeschalteten FRITZ!Box übernommen wurden
+- **Verbesserung:** bei sofortiger Annahme durch Anrufbeantworter im Besetzfall Ruf sofort abweisen
+- **Verbesserung:** neue Sprach-Memos schneller dem Handgerät signalisieren
+- **Verbesserung:** neues Ereignis beim Scheitern des Einlesens von Telefonbüchern wg. zu vielen Einträgen
+- **Verbesserung:** Änderungen an den Konfigurationen der Betriebsarten des Anrufbeantworters "Nachrichten aufnehmen", "Nur Ansage" und "Zeitschaltung" können nun vorgenommen werden, ohne den jeweiligen Betriebsmodus aktiv setzen zu müssen
+- **Änderung:** bei Anbieter Telekom Wechsel der Vorgabe für die DTMF-Übertragung auf "telephone event"
+- **Änderung:** Statusanzeige der Telefonie-LED auf der Startseit grau, wenn mindestens eine Rufnummer nicht registriert
+- **Änderung:** Tastaturcode zum Zurücksetzen der Telefonieeinstellungen entfernt (#99**)
+- **Änderung:** Umstellung des Ports für den STUN-Server beim Anbieter sipgate von Port 10000 auf den Standard-Port 3478
+- **Behoben:** Anbieter-Vorwahlen auch bei Rufumleitungen und "Umleiten über" berücksichtigen
+- **Behoben:** Benutzername für Internetrufnummern von personal-voip.de kann nicht eingegeben werden
+- **Behoben:** Fehler beim Schreiben bestehender Telefonbucheinträge
+- **Behoben:** Fehlverhalten bei Rufumleitungen auf inaktive Anrufbeantworter beseitigt
+- **Behoben:** Inkonsistenzen in Rufnummernverwaltung
+- **Behoben:** Löschen von SIP-Trunk-Rufnummern konnte Inkonsistenzen erzeugen
+- **Behoben:** Löschen von sehr vielen Nachrichten auf dem Anrufbeantworter kann scheitern
+- **Behoben:** Scheitern eines Parallelrufes konnte interne Rufverteilung beenden
+- **Behoben:** Weiterleitung von Faxen via E-Mail konnte permanent scheitern, wenn die erstmalige Einrichtung des Push Service über die Einrichtung des Faxgerätes erfolgte
+- **Behoben:** bei einer Ersatzverbindung konnte eine falsche Abgangsrufnummer verwendet werden
+- **Behoben:** bei mehreren IP Telefonen werden Änderungen in bestimmten Konstellationen auf ein anderes IP-Telefon angewendet
+- **Behoben:** doppelte Signalisierung intern weitergeleiteter Rufe bei aktivierter Pushmail für alle Anrufe
+- **Behoben:** eingehende Rufe konnten Sprachübertragung bei bestehenden Telefonaten u.U. unterbrechen
+- **Behoben:** mögliche fehlerhafte Anzeige der Rufnummer bei eingehenden Rufen aus dem Ausland
+- **Behoben:** möglicher Verbindungsabbruch bei Nutzung von FRITZ!App Fon, bei Codec-Wechsel während laufender Verbindung
+- **Behoben:** MWI wurde für VoIP-Anbieter Telekom und "Anderer Anbieter" nach Bearbeiten deaktiviert 
+
+## DECT
+- **Verbesserung:** Konfigurationsmenü der Betriebsart des Anrufbeantworters um die Betriebsart "Zeitschaltung" erweitert
+- **Verbesserung:** Pausenfunktion im Mediaplayer, bei RSS-Feeds und Podcasts ('OK' Taste)
+- **Verbesserung:** Anpassung der Audioparameter für bessere Sprachqualität an der Reichweitengrenze
+- **Verbesserung:** Anzeige von vorliegenden FRITZ!OS Updates auf FRITZ!Fon Startbildschirm "Ereignisse"
+- **Verbesserung:** Display schaltet in Ladeschale nicht ab, wenn "Live-Bild" aktiv
+- **Verbesserung:** Durchschalten von Live-Bildern mit Tastenwippe möglich
+- **Verbesserung:** Wecker klingelt auch bei aktiver (lokaler) Stummschaltung
+- **Verbesserung:** "Erweiterte Sicherheit" für die DECT Verbindung (early encryption und rekeying)
+- **Verbesserung:** Verbesserte Kompatibilität ausgewählter, neuerer Panasonic DECT Handgeräte an FRITZ!Box
+- **Verbesserung:** Für neuere Gigaset Modelle: Unterstützung von "stumm/laut" während des Gesprächs
+- **Verbesserung:** Gigaset: Unterstuetzung der Gigaset-eigenen Telefonbuchoptionen für diverse Modelle
+
+## Heimnetz
+- **Verbesserung:** Netzwerkübersicht in den Details erweitert durch Anzeige von Art und Weg der Anbindung eines Gerätes an die FRITZ!Box
+- **Verbesserung:** Netzwerkübersicht mit optimierter Listung von Powerline-Geräten mit eigener Benutzeroberfläche
+- **Verbesserung:** lokale IPv6-Einstellungen überarbeitet
+- **Verbesserung:** Alle AVM FRITZ!Powerline-Produkte im Powerline-Netz lassen sich jetzt aus der FRITZ!Box-Benutzeroberfläche aktualisieren
+- **Behoben:** feste Zuweisung der gleichen IPv4-Adresse für ein Netzwerkgerät ging bei Neustart verloren 
+
+## System
+- **Verbesserung:** Einrichtungassistent prüft zum Abschluss, ob ein neues FRITZ!OS verfügbar ist und bietet ein Update an
+- **Verbesserung:** Inhalt und Darstellung der Push Service Mails überarbeitet
+- **Verbesserung:** Link auf die Benutzeroberfläche der FRITZ!Box in der Fußzeile von Push Service-Mails auch extern aufrufbar (erfordert MyFRITZ! oder DynamicDNS)
+- **Verbesserung:** Option zum Deaktivieren des Push Services insgesamt
+- **Verbesserung:** Sicherung der Einstellungen erweitert um Kindersicherungs- und WLAN-Gast-Einstellungen
+- **Verbesserung:** Sortierfunktion in Tabellen der Benutzeroberfläche
+- **Verbesserung:** Versand der Push Mail FRITZ!Box-Info bei Bedarf
+- **Verbesserung:** Versand der Push Mail FRITZ!Box-Info und WLAN-Gastzugang vor einem Neustart
+- **Verbesserung:** Zeitsparende Bedienung über optimierte Navigation in der Benutzeroberfläche
+- **Verbesserung:** Anzeige der neuen Funktionen vor dem FRITZ!OS-Update per HTTPS
+- **Verbesserung:** neues Ereignis für das Sichern von Einstellungen
+- **Verbesserung:** Stabilität, mögliche Dauerreboots in speziellen Nutzungsszenarien beseitigt 
+- **Änderung:** das Update mit einer FRITZ!OS-Datei ist ausschließlich mit aktuellen FRITZ!OS-Versionen zulässig 
+- **Behoben:** Fehler bei der Übernahme von Einstellungen für Online-Telefonbücher
+
+## Sicherheit
+- **Verbesserung:** Kennwortbewertung bei der Ersteinrichtung und bei der Einrichtung von MyFRITZ!
+- **Verbesserung:** Sichere TLS-Verfahren erzwingen, Unterstützung von SSLv3 entfernt
+
+## Diagnose
+- **Verbesserung:** Diagnose der Funktion berücksichtigt eigene FRITZ!WLAN Repeater bei der Zählung gleichnamiger Funknetzwerke in der Umgebung
+- **Verbesserung:** Diagnose der Funktion erweitert um die Erkennung von alten WLAN-Geräten (802.11b)
+- **Verbesserung:** Diagnose-Ergebnisse für Funktion und Sicherheit per Mail versenden
+
+Wir empfehlen jedes Update auch aus Sicherheitsgründen. Weitere Verbesserungen zur Erhöhung der Sicherheit mit dieser Version von FRITZ!OS erfahren Sie unter 
+http://www.avm.de/sicherheit im Bereich "Updates erhöhen Sicherheit".
+
+
+---
+
+
+# Neues in FRITZ!OS 6.30
+
+- Telefonie NEU - Hinzufügen mehrerer Rufnummern mit identischem Kennwort in einem Schritt für ausgewählte Anbieter
+- Telefonie NEU - Umstellung des Anmeldeverfahrens für Google-Telefonbücher 
+
+
+---
+
+
+# Neues FRITZ!OS 6.30 für Interoperabilität, Komfort und Sicherheit
+
+Für Neukunden wird der Schritt in die IP-basierte Telefonie erheblich vereinfacht. Über den Assistenten zum Anlegen neuer Rufnummern können nun bis zu 10 Rufnummern auf einmal angelegt werden. Hiervon profitieren nicht nur Kunden von Telekom und Vodafone, sondern auch Nutzer von "Anderen Anbietern", die für Ihre Rufnummern ein einheitliches Kennwort verwenden.
+
+Die im Rahmen der Erstinstallation von FRITZ!Box eingegebenen Vodafone-Zugangsdaten richten die FRITZ!Box jetzt noch komfortabler auf den gebuchten DSL-/VDSL-Anschluss ein.
+
+Weitere Verbesserungen an der DSL-Software erlauben eine Steigerung von Stabilität und Übertragungsrate an verschiedenen Anschlüssen.
+Außerdem sind die DSL-Diagnosedaten für den Fall einer Fehleranalyse erweitert worden, um für zukünftige Optimierungen noch genauer analysieren zu können.
+
+
+---
+
+
+# Verbesserungen und Fehlerbehebungen in FRITZ!OS 6.30
+
+## DSL
+- **Verbesserung:** Interoperabilität für VDSL
+- **Verbesserung:** erweiterte DSL-Diagnoseoptionen
+- **Verbesserung:** für G.Vector und Diagnose
+
+## Internet
+- **Verbesserung:** Abruf von Internetseiten bei ausgelastetem Anschluss beschleunigt
+- **Verbesserung:** VPN-Interoperabilität zu Fremdgegenstellen
+- **Verbesserung:** Ersteinrichtung mit 1&1 Start-Code bereits vor Schaltungstermin unterstützt
+- **Verbesserung:** Einrichtung am Vodafone-Anschluss vereinfacht
+- **Verbesserung:** Ersteinrichtung für Vodafone auch bei nicht gestecktem DSL-Kabel
+- **Verbesserung:** Kompatibilität mit Vodafone-IPTV an VDSL-Anschlüssen
+
+## Heimnetz
+- **Behoben:** mögliche Anzeigeprobleme bei einigen Gerätenamen am IP-Client/Repeater
+
+## Sicherheit
+- **Verbesserung:** Anlegen neuer Rufumleitungen zu Sondernummern wird verhindert
+- **Verbesserung:** Kennwortbewertung auch beim Setzen des FRITZ!Box-Kennworts während der Ersteinrichtung
+- **Verbesserung:** MyFRITZ!-Einrichtung mit strengerer Kennwortrichtlinie
+
+## System
+- **Verbesserung:** Stabilität
+
+
+Weitere Verbesserungen zur Erhöhung der Sicherheit mit dieser Version von FRITZ!OS erfahren Sie unter avm.de/sicherheit im Bereich "Updates erhöhen Sicherheit"
+
+*Hinweis* - Zugang zur FRITZ!Box per Telnet wird nicht mehr unterstützt
+
+
+---
+
+
+# Verbesserungen und Fehlerbehebungen in FRITZ!OS 6.21
+
+## System
+- **Verbesserung:** Stabilität und Robustheit
+
+## Internet
+- **Verbesserung:** VPN Kompatibilität zu Fremdgegenstellen
+- **Behoben:** Liste mehrerer Adressen für Blacklist wird unvollständig übernommen
+
+## Telefonie
+- **Behoben:** keine Registrierung von SIPGate Trunking
+
+## Telefonie/DECT
+- **Behoben:** Makeln konnte sporadisch nicht ausgeführt werden
+- **Verbesserung:** Anrufbeantworter-Memo in Nachrichtenliste sofort sichtbar
+
+
+
+---
+
+Hinweise zur Durchführung des Updates:
+Verbesserungen und Fehlerbehebungen in FRITZ!OS 6.21
+Führen Sie das Update über die in der Benutzeroberfläche 
+angebotene Aktualisierungs-Funktion durch. Diese bietet 
+Ihnen automatisch das richtige FRITZ!OS an. Klicken Sie 
+auf "Assistenten", wählen Sie "Update" und folgen Sie den 
+Hinweisen auf dem Bildschirm.
+
+---
+
+© AVM GmbH 2004 - 2017. Alle Rechte vorbehalten.
+
+Das vorliegende AVM Firmware-Paket enthält Dateien, die unter 
+verschiedenen Lizenzen verbreitet werden, insbesondere unter 
+AVM-proprietärer Lizenz oder unter einer Open Source Lizenz 
+(nämlich GNU General Public License, GNU Lesser General Public
+License oder FreeBSD License). Einzelheiten zu verschiedenen
+Lizenzen enthält die Datei "license.txt" (https://download.avm.de/fritzbox/license.txt).
+Der Source Code der als Open Source verbreiteten Dateien kann
+schriftlich angefordert werden über fritzbox_info@avm.de. 
+
+AVM räumt das nicht ausschließliche Recht ein, dieses AVM 
+Firmware-Paket zu nutzen, welches ausschließlich im Object 
+Code Format überlassen wird.  Der Lizenznehmer darf von der 
+Software nur eine Vervielfältigung erstellen, die ausschließlich 
+für Sicherungszwecke verwendet werden darf (Sicherungskopie).
+AVM behält sich alle Rechte vor, die nicht ausdrücklich 
+eingeräumt werden. Ohne vorheriges schriftliches Einverständnis 
+und außer in den gesetzlich gestatteten Fällen darf dieses AVM 
+Firmware-Paket insbesondere weder
+- vervielfältigt, verbreitet oder in sonstiger Weise öffentlich 
+zugänglich gemacht werden, noch
+- bearbeitet, disassembliert, reverse engineered, übersetzt, 
+dekompiliert oder in sonstiger Weise ganz oder teilweise "geöffnet" 
+und in der Folge weder vervielfältigt, verbreitet noch in sonstiger 
+Weise öffentlich zugänglich gemacht werden.
+
+SNI 2018-10-11
+ 
