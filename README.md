@@ -1,7 +1,7 @@
 ## Explenation
 
 Openwrt firmware for Fritz!Box 7412.<br>
-For flashing back the original AVM firmware an initramfs-image additionaly exisits.
+For flashing back the original AVM firmware an initramfs-image is additionaly included.
 
 ### Credits to:
 
@@ -41,21 +41,21 @@ AVM binarys are from firmare release:<br>
 
 #### Flash OpenWrt into Router Ram
 
-1) Directly connect router to via lan-cable.<br>
+1) Directly connect the router to lan.<br>
 Set ethernet adapter to static:<br>
 &nbsp; &nbsp; &nbsp; IP-Address: 192.168.178.10<br>
 &nbsp; &nbsp; &nbsp; Subnetmask: 255.255.255.0<br>
 
-2) Open shell and navigate to this project folder.
+2) Open shell and navigate to the project folder of this repository.
 
-3) Unplug and plug in power connecter of the router.
+3) Unplug and plug in power connector of the router to reset the device.
 
-4) Flash OpenWrt to the routers ram after the connection is established:
+4) Flash OpenWrt to the routers ram after the connection is initialy established:
     ~~~
     bash ./flash_initramfs_openwrt.sh
     ~~~
     
-5) Flashing will be proceed if the router restarts from its own, otherwise begin from 3)
+5) Flashing will be proceed if the router restarts from its own and no exception is shown, otherwise begin from 3)
 
 
 #### Persistant install OpenWrt
@@ -65,22 +65,22 @@ Set ethernet adapter to static:<br>
 IP-Address: 192.168.1.70<br>
 Subnetmask: 255.255.255.0<br>
 
-2) Connect to OpenWrt system as router shell:
+2) Connect in shell to OpenWrt router system:
     ~~~
     ssh 192.168.1.1 -l root
     ~~~
-3) Run on router system:
+3) Run via the router shell:
     ~~~
     fritz_tffs_nand -d /dev/mtd1 -n linux_fs_start
     ~~~
-4) If command responses "0" proceed with the next step. Otherwise power off router and perform a router update via web-shell. Restart at 1) to load OpenWrt again into ram.
+4) If command responses "0" proceed with the next step. Otherwise power off the router and perform a router update via the webinterface. Restart at 1) to load OpenWrt again into ram.
 
-5) In a new shell run the command to transfer the sysupgrade binary to the router:
+5) In a new shell window run this command to transfer the sysupgrade binary to the router:
     ~~~
     scp /path/to/openwrt-lantiq-xrx200-avm_fritz7412-squashfs-sysupgrade.bin root@192.168.1.1:/root/openwrt-lantiq-xrx200-avm_fritz7412-squashfs-sysupgrade.bin 
     ~~~
 
-6) Make your install OpenWrt on the NAND flash instert in your routers shell:
+6) Install OpenWrt on the NAND flash via your routers shell:
     ~~~
     sysupgrade -v ./openwrt-lantiq-xrx200-avm_fritz7412-squashfs-sysupgrade.bin
     ~~~
@@ -113,23 +113,23 @@ Subnetmask: 255.255.255.0<br>
 
 ### Flash original AVM Firmware back
 
-1) Directly connect router to via lan-cable.
+1) Directly connect to the router via lan.
 Set ethernet adapter to static:<br>
 IP-Address: 192.168.178.10<br>
 Subnetmask: 255.255.255.0<br>
 
-2) Open shell and navigate to this project folder.
+2) Open shell and navigate to the project folder of this repository.
 
-3) Unplug and plug in power connecter of the router.
+3) Unplug and plug in power connector of the router to reset the device.
 
 4) Flash the AVM firmware to the routers ram after the connection is established:
     ~~~
     bash ./flash_initramfs_avm.sh
     ~~~
 
-5) Flashing will be proceed if the router restarts from its own, otherwise begin from 3).
+5) Flashing will be proceed if the router restarts from its own and no exception is shown, otherwise begin from 3).
 
-5) Do not power off device and wait until connection including webinterface to the router is established.
+5) Do not power off the device! and wait until the connection is established and the AVM webinterface of the router shows up.
 
 
 
