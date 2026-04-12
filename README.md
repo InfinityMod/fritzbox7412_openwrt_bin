@@ -70,9 +70,8 @@ Set ethernet adapter to static:<br>
     
 5. The flashing process is successful if the router restarts automatically and no errors are shown. Otherwise, repeat the process starting from step 3.
 
-   > **! Warning !**
-   > Do not power off the device! 
-   > Wait until the connection is re-established and the AVM web interface becomes accessible again.
+   > **! Warning !**<br>
+   > Do not power off the device while flashing! 
 
 #### Persistant install OpenWrt
 
@@ -97,6 +96,10 @@ Subnetmask: 255.255.255.0<br>
    Then upload the file `/openwrt/openwrt-24.10.4-lantiq-xrx200-avm_fritz7412-squashfs-sysupgrade.bin`
    using the **"Flash new firmware image"** option at the bottom of the page.
 
+   > **! Warning !**<br>
+   > Do not power off the device while flashing! 
+
+
 ### Flash original AVM Firmware back
 
 1) Directly connect to the router via lan.
@@ -115,6 +118,6 @@ Subnetmask: 255.255.255.0<br>
 
 5. The flashing process is successful if the router restarts automatically and no errors are shown. Otherwise, repeat the process starting from step 3.
 
-   > **! Warning !**
-   > Do not power off the device! 
+   > **! Warning !**<br>
+   > Do not power off the device!<br>
    > Wait until the connection is re-established and the AVM web interface becomes accessible again.
